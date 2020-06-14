@@ -24,7 +24,7 @@ func main() {
 		} else {
 			fmt.Printf("\r\033[KTime UP!")
 		}
-		tm.MoveCursorUp(1)
+		//tm.MoveCursorUp(1)
 		tm.Flush()
 		if elapsedSecs >= timer {
 			beeper.Beep()
